@@ -25,7 +25,7 @@ public:
 	void Error(const char* message)
 	{
 		if(m_LogLevel >= LogLevelError)
-			std::cout << "[INFO]:" << message << std::endl;
+			std::cout << "[Error]:" << message << std::endl;
 	}
 
 	void Info(const char* message)
